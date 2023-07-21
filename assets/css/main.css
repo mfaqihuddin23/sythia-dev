@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "FontspringDemo";
+  src: url("../fonts/Integral-CF/Demo_Fonts/Fontspring-DEMO-integralcf-regular.otf");
+}
+
+body{
+  background-color: #141414;
+}
