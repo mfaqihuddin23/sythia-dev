@@ -10,3 +10,22 @@
 body{
   background-color: #141414;
 }
+.swiper {
+  width: auto;
+  height: auto;
+}
+.swiper-slide{
+  width: auto !important;
+}
+.swiper-linear {
+  -webkit-transition-timing-function:linear!important; 
+  -o-transition-timing-function:linear!important;
+  transition-timing-function:linear!important; 
+}
+.services-box{
+  background: #1C1C1C;
+  height: 100%;
+}
+.swiper-slide-active .services-box{
+  background: linear-gradient(132deg, #1010ED 0%, #13A1EF 100%);
+}
