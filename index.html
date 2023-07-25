@@ -13,35 +13,207 @@
   <link href="./assets/css/styles.css" rel="stylesheet">
 </head>
 <body>
-  <nav class="bg-white border-gray-200 ">
-    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-      <a href="https://flowbite.com/" class="flex items-center">
-          <img src="https://flowbite.com/docs/images/logo.svg" class="h-8 mr-3" alt="Flowbite Logo" />
-          <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
-      </a>
+  <nav class="">
+    <div class="container flex flex-wrap flex-row-reverse md:flex-row justify-between items-center mx-auto p-4">
+      <div class="brand-wrap flex flex-grow md:flex-none justify-center md:justify-start">
+        <a href="#" class="flex items-center">
+          <svg width="173" height="19" viewBox="0 0 173 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M3.07971 6.05761H6.15941H9.23912H12.3188H15.3985H18.4782H20.0181C20.8676 6.05761 21.558 5.36726 21.558 4.51776C21.558 3.66826 20.8676 2.97791 20.0181 2.97791H18.4782H15.3985H12.3188H9.23912H6.15941H3.07971C1.37847 2.97791 0 4.35637 0 6.05761V9.13732C0 10.8386 1.37847 12.217 3.07971 12.217H6.15941H9.23912H12.3188H15.3985H18.4782V15.2967H15.3985H12.3188H9.23912H6.15941H3.07971H1.53985C0.690355 15.2967 0 15.9871 0 16.8366C0 17.6861 0.690355 18.3764 1.53985 18.3764H3.07971H6.15941H9.23912H12.3188H15.3985H18.4782C20.1795 18.3764 21.558 16.998 21.558 15.2967V12.217C21.558 10.5158 20.1795 9.13732 18.4782 9.13732H15.3985H12.3188H9.23912H6.15941C4.89525 9.13732 4.96474 10.8587 3.91127 10.8587C3.1335 10.8587 3.08195 9.42646 3.07747 9.17766V9.13732V6.05761H3.07971Z" fill="url(#paint0_linear_941_9835)"/>
+            <path d="M118.589 2.97546C117.737 2.97546 117.049 3.66582 117.049 4.51532V6.05517V9.13487H113.969H110.89H107.81H104.73C103.466 9.13487 103.538 10.8563 102.484 10.8563C101.668 10.8563 101.651 9.27609 101.651 9.14609V9.14832V9.13712V6.05741V4.51756C101.651 3.66806 100.96 2.97771 100.111 2.97771C99.2612 2.97771 98.5708 3.66806 98.5708 4.51756V6.05741V9.13712V12.2168V15.2965V16.8364C98.5708 17.6859 99.2612 18.3762 100.111 18.3762C100.962 18.3762 101.651 17.6859 101.651 16.8364V15.2965V12.2168H103.482H107.81H110.89H113.969H117.049V15.2965V16.8364C117.049 17.6859 117.739 18.3762 118.589 18.3762C119.438 18.3762 120.129 17.6859 120.129 16.8364V15.2965V12.2168V9.13712V6.05741V4.51756C120.129 3.66582 119.438 2.97546 118.589 2.97546Z" fill="url(#paint1_linear_941_9835)"/>
+            <path d="M124.748 2.97546C123.897 2.97546 123.208 3.66582 123.208 4.51532V6.05517V9.13487V12.2146V15.2943V16.8342C123.208 17.6836 123.899 18.374 124.748 18.374C125.598 18.374 126.288 17.6836 126.288 16.8342V15.2943V12.2146V9.13487V6.05517V4.51532C126.29 3.66582 125.6 2.97546 124.748 2.97546Z" fill="url(#paint2_linear_941_9835)"/>
+            <path d="M147.851 2.97546H144.771H141.691H138.611H135.532H132.452C130.751 2.97546 129.372 4.35393 129.372 6.05517V9.13487V12.2146V15.2943V16.8342C129.372 17.6836 130.063 18.374 130.912 18.374C131.764 18.374 132.452 17.6836 132.452 16.8342V15.2943H135.532H138.611H141.691H144.771H147.851V16.8342C147.851 17.6836 148.541 18.374 149.39 18.374C150.24 18.374 150.93 17.6836 150.93 16.8342V15.2943V12.2146V9.13487V6.05517C150.933 4.35617 149.552 2.97546 147.851 2.97546ZM147.851 9.13712V12.2168H144.771H141.691H138.611H135.532C134.268 12.2168 134.339 13.9382 133.286 13.9382C132.47 13.9382 132.452 12.358 132.452 12.228V12.2415V12.2168V9.13712V6.05741H135.532H138.611H141.691H144.771H147.851V9.13712Z" fill="url(#paint3_linear_941_9835)"/>
+            <path d="M93.9468 2.97546H92.407H89.3273H86.2475H83.1678H80.0881H77.0084H75.4686C74.6168 2.97546 73.9287 3.66582 73.9287 4.51532C73.9287 5.36481 74.6191 6.05517 75.4686 6.05517H77.0084H80.0881C81.3523 6.05517 81.2806 4.33376 82.334 4.33376C83.1297 4.33376 83.1656 5.82879 83.1678 6.02827V6.05517V9.13487V12.2146V15.2943V16.8342C83.1678 17.6836 83.8582 18.374 84.7077 18.374C85.5594 18.374 86.2475 17.6836 86.2475 16.8342V15.2943V12.2146V9.13487V6.05517H89.3273H92.407H93.9468C94.7963 6.05517 95.4867 5.36481 95.4867 4.51532C95.4867 3.66582 94.7963 2.97546 93.9468 2.97546Z" fill="url(#paint4_linear_941_9835)"/>
+            <path d="M67.7648 2.97546H64.6851H61.6054H58.5257H55.446C54.1818 2.97546 54.2535 4.69687 53.2001 4.69687C52.3864 4.69687 52.3663 3.12564 52.3663 2.98667V2.97546H49.2866V6.05517V9.13487V12.2146V15.2943V16.8342C49.2866 17.6836 49.9769 18.374 50.8264 18.374C51.6782 18.374 52.3663 17.6836 52.3663 16.8342V15.2943V12.2146V9.13487V6.05517H54.8341H58.5279H61.6076H64.6873H67.767V9.13487V12.2146V15.2943V16.8342C67.767 17.6836 68.4574 18.374 69.3069 18.374C70.1564 18.374 70.8468 17.6836 70.8468 16.8342V15.2943V12.2146V9.13487V6.05517C70.8445 4.35617 69.466 2.97546 67.7648 2.97546Z" fill="url(#paint5_linear_941_9835)"/>
+            <path d="M44.6624 2.97546C43.813 2.97546 43.1226 3.66582 43.1226 4.51532V6.05517V9.13487H40.0429H36.9632H33.8835H30.8038H27.7241V6.05517V4.51532C27.7241 3.66582 27.0337 2.97546 26.1842 2.97546C25.3325 2.97546 24.6443 3.66582 24.6443 4.51532V6.05517V9.13487C24.6443 10.8361 26.0228 12.2146 27.7241 12.2146H30.8038C32.0679 12.2146 31.9962 10.4932 33.0497 10.4932C33.8655 10.4932 33.8835 12.0734 33.8835 12.2034V12.2123V15.2921V16.8319C33.8835 17.6814 34.5738 18.3718 35.4233 18.3718C36.2751 18.3718 36.9632 17.6814 36.9632 16.8319V15.2921V12.2123H40.0429H43.1226C44.8238 12.2123 46.2023 10.8339 46.2023 9.13263V6.05293V4.51307C46.2023 3.66582 45.5119 2.97546 44.6624 2.97546Z" fill="url(#paint6_linear_941_9835)"/>
+            <path d="M156.103 12.2499V4.89929H153.603V3.29916H160.291V4.89929H157.791V12.2499H156.103ZM161.491 3.29916H163.154L165.891 8.03704H165.991L168.729 3.29916H170.404V12.2499H168.729V7.83702L168.829 6.3369H168.729L166.454 10.3497H165.441L163.154 6.3369H163.054L163.154 7.83702V12.2499H161.491V3.29916Z" fill="white"/>
+            <defs>
+            <linearGradient id="paint0_linear_941_9835" x1="-3.79373" y1="13.0295" x2="197.833" y2="-19.513" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#100AED"/>
+            <stop offset="1" stop-color="#14D5EF"/>
+            </linearGradient>
+            <linearGradient id="paint1_linear_941_9835" x1="-1.29124" y1="28.5343" x2="200.336" y2="-4.00819" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#100AED"/>
+            <stop offset="1" stop-color="#14D5EF"/>
+            </linearGradient>
+            <linearGradient id="paint2_linear_941_9835" x1="-0.900109" y1="30.957" x2="200.727" y2="-1.58547" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#100AED"/>
+            <stop offset="1" stop-color="#14D5EF"/>
+            </linearGradient>
+            <linearGradient id="paint3_linear_941_9835" x1="-0.491245" y1="33.491" x2="201.136" y2="0.948449" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#100AED"/>
+            <stop offset="1" stop-color="#14D5EF"/>
+            </linearGradient>
+            <linearGradient id="paint4_linear_941_9835" x1="-2.03413" y1="23.9313" x2="199.593" y2="-8.61124" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#100AED"/>
+            <stop offset="1" stop-color="#14D5EF"/>
+            </linearGradient>
+            <linearGradient id="paint5_linear_941_9835" x1="-2.56043" y1="20.6705" x2="199.067" y2="-11.872" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#100AED"/>
+            <stop offset="1" stop-color="#14D5EF"/>
+            </linearGradient>
+            <linearGradient id="paint6_linear_941_9835" x1="-3.28546" y1="16.1788" x2="198.342" y2="-16.3638" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#100AED"/>
+            <stop offset="1" stop-color="#14D5EF"/>
+            </linearGradient>
+            </defs>
+          </svg>
+        </a>
+      </div>
       <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
           <span class="sr-only">Open main menu</span>
           <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
               <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
           </svg>
       </button>
-      <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-        <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+      <div class="hidden w-full md:flex md:w-auto" id="navbar-default">
+        <ul class="font-bold text-sm flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0 ">
           <li>
-            <a href="#" class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500" aria-current="page">Home</a>
+            <a href="#about" class="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
           </li>
           <li>
-            <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
+            <a href="#resume" class="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Resume</a>
           </li>
           <li>
-            <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Services</a>
+            <a href="#portfolio" class="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Portfolio</a>
           </li>
           <li>
-            <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Pricing</a>
+            <a href="#contact" class="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
           </li>
           <li>
-            <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
+            <a href="#shortcode" class="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Shortcodes</a>
           </li>
+        </ul>
+        <ul class="md:hidden flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0 ">
+          <li>
+            <a href="#" class="block " >
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_941_9792)">
+                <path d="M20 10C20 4.47715 15.5229 0 10 0C4.47715 0 0 4.47715 0 10C0 14.9912 3.65684 19.1283 8.4375 19.8785V12.8906H5.89844V10H8.4375V7.79688C8.4375 5.29063 9.93047 3.90625 12.2146 3.90625C13.3084 3.90625 14.4531 4.10156 14.4531 4.10156V6.5625H13.1922C11.95 6.5625 11.5625 7.3334 11.5625 8.125V10H14.3359L13.8926 12.8906H11.5625V19.8785C16.3432 19.1283 20 14.9912 20 10Z" fill="white"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_941_9792">
+                <rect width="20" height="20" fill="white"/>
+                </clipPath>
+                </defs>
+                </svg>
+                
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block ">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_941_9793)">
+                <path d="M6.2918 18.125C13.8371 18.125 17.9652 11.8723 17.9652 6.45155C17.9652 6.27577 17.9613 6.09608 17.9535 5.9203C18.7566 5.33955 19.4496 4.62021 20 3.79608C19.2521 4.12883 18.458 4.34615 17.6449 4.44061C18.5011 3.92742 19.1421 3.12123 19.4492 2.17147C18.6438 2.6488 17.763 2.98551 16.8445 3.16718C16.2257 2.50963 15.4075 2.07426 14.5164 1.92838C13.6253 1.78249 12.711 1.93421 11.9148 2.36008C11.1186 2.78595 10.4848 3.46225 10.1115 4.28443C9.73825 5.1066 9.64619 6.02885 9.84961 6.90858C8.21874 6.82674 6.62328 6.40309 5.16665 5.66508C3.71002 4.92708 2.42474 3.8912 1.39414 2.6246C0.870333 3.5277 0.710047 4.59637 0.945859 5.61341C1.18167 6.63045 1.79589 7.51954 2.66367 8.09999C2.01219 8.0793 1.37498 7.9039 0.804688 7.58827V7.63905C0.804104 8.58679 1.13175 9.50549 1.73192 10.239C2.3321 10.9725 3.16777 11.4755 4.09687 11.6625C3.49338 11.8276 2.85999 11.8517 2.2457 11.7328C2.50788 12.5479 3.01798 13.2607 3.70481 13.7719C4.39164 14.2831 5.22093 14.5672 6.07695 14.5844C4.62369 15.7259 2.82848 16.3451 0.980469 16.3422C0.652739 16.3417 0.325333 16.3216 0 16.282C1.87738 17.4865 4.06128 18.1262 6.2918 18.125Z" fill="white"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_941_9793">
+                <rect width="20" height="20" fill="white"/>
+                </clipPath>
+                </defs>
+                </svg>
+                
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block ">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_941_9794)">
+                <path d="M10 1.80078C12.6719 1.80078 12.9883 1.8125 14.0391 1.85937C15.0156 1.90234 15.543 2.06641 15.8945 2.20313C16.3594 2.38281 16.6953 2.60156 17.043 2.94922C17.3945 3.30078 17.6094 3.63281 17.7891 4.09766C17.9258 4.44922 18.0898 4.98047 18.1328 5.95312C18.1797 7.00781 18.1914 7.32422 18.1914 9.99219C18.1914 12.6641 18.1797 12.9805 18.1328 14.0313C18.0898 15.0078 17.9258 15.5352 17.7891 15.8867C17.6094 16.3516 17.3906 16.6875 17.043 17.0352C16.6914 17.3867 16.3594 17.6016 15.8945 17.7813C15.543 17.918 15.0117 18.082 14.0391 18.125C12.9844 18.1719 12.668 18.1836 10 18.1836C7.32813 18.1836 7.01172 18.1719 5.96094 18.125C4.98438 18.082 4.45703 17.918 4.10547 17.7813C3.64063 17.6016 3.30469 17.3828 2.95703 17.0352C2.60547 16.6836 2.39063 16.3516 2.21094 15.8867C2.07422 15.5352 1.91016 15.0039 1.86719 14.0313C1.82031 12.9766 1.80859 12.6602 1.80859 9.99219C1.80859 7.32031 1.82031 7.00391 1.86719 5.95312C1.91016 4.97656 2.07422 4.44922 2.21094 4.09766C2.39063 3.63281 2.60938 3.29688 2.95703 2.94922C3.30859 2.59766 3.64063 2.38281 4.10547 2.20313C4.45703 2.06641 4.98828 1.90234 5.96094 1.85937C7.01172 1.8125 7.32813 1.80078 10 1.80078ZM10 0C7.28516 0 6.94531 0.0117187 5.87891 0.0585938C4.81641 0.105469 4.08594 0.277344 3.45313 0.523438C2.79297 0.78125 2.23438 1.12109 1.67969 1.67969C1.12109 2.23438 0.78125 2.79297 0.523438 3.44922C0.277344 4.08594 0.105469 4.8125 0.0585938 5.875C0.0117188 6.94531 0 7.28516 0 10C0 12.7148 0.0117188 13.0547 0.0585938 14.1211C0.105469 15.1836 0.277344 15.9141 0.523438 16.5469C0.78125 17.207 1.12109 17.7656 1.67969 18.3203C2.23438 18.875 2.79297 19.2188 3.44922 19.4727C4.08594 19.7188 4.8125 19.8906 5.875 19.9375C6.94141 19.9844 7.28125 19.9961 9.99609 19.9961C12.7109 19.9961 13.0508 19.9844 14.1172 19.9375C15.1797 19.8906 15.9102 19.7188 16.543 19.4727C17.1992 19.2188 17.7578 18.875 18.3125 18.3203C18.8672 17.7656 19.2109 17.207 19.4648 16.5508C19.7109 15.9141 19.8828 15.1875 19.9297 14.125C19.9766 13.0586 19.9883 12.7188 19.9883 10.0039C19.9883 7.28906 19.9766 6.94922 19.9297 5.88281C19.8828 4.82031 19.7109 4.08984 19.4648 3.45703C19.2188 2.79297 18.8789 2.23438 18.3203 1.67969C17.7656 1.125 17.207 0.78125 16.5508 0.527344C15.9141 0.28125 15.1875 0.109375 14.125 0.0625C13.0547 0.0117188 12.7148 0 10 0Z" fill="white"/>
+                <path d="M10 4.86328C7.16406 4.86328 4.86328 7.16406 4.86328 10C4.86328 12.8359 7.16406 15.1367 10 15.1367C12.8359 15.1367 15.1367 12.8359 15.1367 10C15.1367 7.16406 12.8359 4.86328 10 4.86328ZM10 13.332C8.16016 13.332 6.66797 11.8398 6.66797 10C6.66797 8.16016 8.16016 6.66797 10 6.66797C11.8398 6.66797 13.332 8.16016 13.332 10C13.332 11.8398 11.8398 13.332 10 13.332Z" fill="white"/>
+                <path d="M16.5391 4.66016C16.5391 5.32422 16 5.85938 15.3398 5.85938C14.6758 5.85938 14.1406 5.32031 14.1406 4.66016C14.1406 3.99609 14.6797 3.46094 15.3398 3.46094C16 3.46094 16.5391 4 16.5391 4.66016Z" fill="white"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_941_9794">
+                <rect width="20" height="20" fill="white"/>
+                </clipPath>
+                </defs>
+                </svg>
+                
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block ">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_941_9795)">
+                <path d="M18.5195 0H1.47656C0.660156 0 0 0.644531 0 1.44141V18.5547C0 19.3516 0.660156 20 1.47656 20H18.5195C19.3359 20 20 19.3516 20 18.5586V1.44141C20 0.644531 19.3359 0 18.5195 0ZM5.93359 17.043H2.96484V7.49609H5.93359V17.043ZM4.44922 6.19531C3.49609 6.19531 2.72656 5.42578 2.72656 4.47656C2.72656 3.52734 3.49609 2.75781 4.44922 2.75781C5.39844 2.75781 6.16797 3.52734 6.16797 4.47656C6.16797 5.42188 5.39844 6.19531 4.44922 6.19531ZM17.043 17.043H14.0781V12.4023C14.0781 11.2969 14.0586 9.87109 12.5352 9.87109C10.9922 9.87109 10.7578 11.0781 10.7578 12.3242V17.043H7.79688V7.49609H10.6406V8.80078H10.6797C11.0742 8.05078 12.043 7.25781 13.4844 7.25781C16.4883 7.25781 17.043 9.23438 17.043 11.8047V17.043Z" fill="white"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_941_9795">
+                <rect width="20" height="20" fill="white"/>
+                </clipPath>
+                </defs>
+                </svg>
+                
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+      <div class="hidden w-full md:flex md:w-auto" id="navbar-default">
+        <ul class=" flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0 ">
+          <li>
+            <a href="#" class="block " >
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_941_9792)">
+                <path d="M20 10C20 4.47715 15.5229 0 10 0C4.47715 0 0 4.47715 0 10C0 14.9912 3.65684 19.1283 8.4375 19.8785V12.8906H5.89844V10H8.4375V7.79688C8.4375 5.29063 9.93047 3.90625 12.2146 3.90625C13.3084 3.90625 14.4531 4.10156 14.4531 4.10156V6.5625H13.1922C11.95 6.5625 11.5625 7.3334 11.5625 8.125V10H14.3359L13.8926 12.8906H11.5625V19.8785C16.3432 19.1283 20 14.9912 20 10Z" fill="white"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_941_9792">
+                <rect width="20" height="20" fill="white"/>
+                </clipPath>
+                </defs>
+                </svg>
+                
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block ">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_941_9793)">
+                <path d="M6.2918 18.125C13.8371 18.125 17.9652 11.8723 17.9652 6.45155C17.9652 6.27577 17.9613 6.09608 17.9535 5.9203C18.7566 5.33955 19.4496 4.62021 20 3.79608C19.2521 4.12883 18.458 4.34615 17.6449 4.44061C18.5011 3.92742 19.1421 3.12123 19.4492 2.17147C18.6438 2.6488 17.763 2.98551 16.8445 3.16718C16.2257 2.50963 15.4075 2.07426 14.5164 1.92838C13.6253 1.78249 12.711 1.93421 11.9148 2.36008C11.1186 2.78595 10.4848 3.46225 10.1115 4.28443C9.73825 5.1066 9.64619 6.02885 9.84961 6.90858C8.21874 6.82674 6.62328 6.40309 5.16665 5.66508C3.71002 4.92708 2.42474 3.8912 1.39414 2.6246C0.870333 3.5277 0.710047 4.59637 0.945859 5.61341C1.18167 6.63045 1.79589 7.51954 2.66367 8.09999C2.01219 8.0793 1.37498 7.9039 0.804688 7.58827V7.63905C0.804104 8.58679 1.13175 9.50549 1.73192 10.239C2.3321 10.9725 3.16777 11.4755 4.09687 11.6625C3.49338 11.8276 2.85999 11.8517 2.2457 11.7328C2.50788 12.5479 3.01798 13.2607 3.70481 13.7719C4.39164 14.2831 5.22093 14.5672 6.07695 14.5844C4.62369 15.7259 2.82848 16.3451 0.980469 16.3422C0.652739 16.3417 0.325333 16.3216 0 16.282C1.87738 17.4865 4.06128 18.1262 6.2918 18.125Z" fill="white"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_941_9793">
+                <rect width="20" height="20" fill="white"/>
+                </clipPath>
+                </defs>
+                </svg>
+                
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block ">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_941_9794)">
+                <path d="M10 1.80078C12.6719 1.80078 12.9883 1.8125 14.0391 1.85937C15.0156 1.90234 15.543 2.06641 15.8945 2.20313C16.3594 2.38281 16.6953 2.60156 17.043 2.94922C17.3945 3.30078 17.6094 3.63281 17.7891 4.09766C17.9258 4.44922 18.0898 4.98047 18.1328 5.95312C18.1797 7.00781 18.1914 7.32422 18.1914 9.99219C18.1914 12.6641 18.1797 12.9805 18.1328 14.0313C18.0898 15.0078 17.9258 15.5352 17.7891 15.8867C17.6094 16.3516 17.3906 16.6875 17.043 17.0352C16.6914 17.3867 16.3594 17.6016 15.8945 17.7813C15.543 17.918 15.0117 18.082 14.0391 18.125C12.9844 18.1719 12.668 18.1836 10 18.1836C7.32813 18.1836 7.01172 18.1719 5.96094 18.125C4.98438 18.082 4.45703 17.918 4.10547 17.7813C3.64063 17.6016 3.30469 17.3828 2.95703 17.0352C2.60547 16.6836 2.39063 16.3516 2.21094 15.8867C2.07422 15.5352 1.91016 15.0039 1.86719 14.0313C1.82031 12.9766 1.80859 12.6602 1.80859 9.99219C1.80859 7.32031 1.82031 7.00391 1.86719 5.95312C1.91016 4.97656 2.07422 4.44922 2.21094 4.09766C2.39063 3.63281 2.60938 3.29688 2.95703 2.94922C3.30859 2.59766 3.64063 2.38281 4.10547 2.20313C4.45703 2.06641 4.98828 1.90234 5.96094 1.85937C7.01172 1.8125 7.32813 1.80078 10 1.80078ZM10 0C7.28516 0 6.94531 0.0117187 5.87891 0.0585938C4.81641 0.105469 4.08594 0.277344 3.45313 0.523438C2.79297 0.78125 2.23438 1.12109 1.67969 1.67969C1.12109 2.23438 0.78125 2.79297 0.523438 3.44922C0.277344 4.08594 0.105469 4.8125 0.0585938 5.875C0.0117188 6.94531 0 7.28516 0 10C0 12.7148 0.0117188 13.0547 0.0585938 14.1211C0.105469 15.1836 0.277344 15.9141 0.523438 16.5469C0.78125 17.207 1.12109 17.7656 1.67969 18.3203C2.23438 18.875 2.79297 19.2188 3.44922 19.4727C4.08594 19.7188 4.8125 19.8906 5.875 19.9375C6.94141 19.9844 7.28125 19.9961 9.99609 19.9961C12.7109 19.9961 13.0508 19.9844 14.1172 19.9375C15.1797 19.8906 15.9102 19.7188 16.543 19.4727C17.1992 19.2188 17.7578 18.875 18.3125 18.3203C18.8672 17.7656 19.2109 17.207 19.4648 16.5508C19.7109 15.9141 19.8828 15.1875 19.9297 14.125C19.9766 13.0586 19.9883 12.7188 19.9883 10.0039C19.9883 7.28906 19.9766 6.94922 19.9297 5.88281C19.8828 4.82031 19.7109 4.08984 19.4648 3.45703C19.2188 2.79297 18.8789 2.23438 18.3203 1.67969C17.7656 1.125 17.207 0.78125 16.5508 0.527344C15.9141 0.28125 15.1875 0.109375 14.125 0.0625C13.0547 0.0117188 12.7148 0 10 0Z" fill="white"/>
+                <path d="M10 4.86328C7.16406 4.86328 4.86328 7.16406 4.86328 10C4.86328 12.8359 7.16406 15.1367 10 15.1367C12.8359 15.1367 15.1367 12.8359 15.1367 10C15.1367 7.16406 12.8359 4.86328 10 4.86328ZM10 13.332C8.16016 13.332 6.66797 11.8398 6.66797 10C6.66797 8.16016 8.16016 6.66797 10 6.66797C11.8398 6.66797 13.332 8.16016 13.332 10C13.332 11.8398 11.8398 13.332 10 13.332Z" fill="white"/>
+                <path d="M16.5391 4.66016C16.5391 5.32422 16 5.85938 15.3398 5.85938C14.6758 5.85938 14.1406 5.32031 14.1406 4.66016C14.1406 3.99609 14.6797 3.46094 15.3398 3.46094C16 3.46094 16.5391 4 16.5391 4.66016Z" fill="white"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_941_9794">
+                <rect width="20" height="20" fill="white"/>
+                </clipPath>
+                </defs>
+                </svg>
+                
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block ">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_941_9795)">
+                <path d="M18.5195 0H1.47656C0.660156 0 0 0.644531 0 1.44141V18.5547C0 19.3516 0.660156 20 1.47656 20H18.5195C19.3359 20 20 19.3516 20 18.5586V1.44141C20 0.644531 19.3359 0 18.5195 0ZM5.93359 17.043H2.96484V7.49609H5.93359V17.043ZM4.44922 6.19531C3.49609 6.19531 2.72656 5.42578 2.72656 4.47656C2.72656 3.52734 3.49609 2.75781 4.44922 2.75781C5.39844 2.75781 6.16797 3.52734 6.16797 4.47656C6.16797 5.42188 5.39844 6.19531 4.44922 6.19531ZM17.043 17.043H14.0781V12.4023C14.0781 11.2969 14.0586 9.87109 12.5352 9.87109C10.9922 9.87109 10.7578 11.0781 10.7578 12.3242V17.043H7.79688V7.49609H10.6406V8.80078H10.6797C11.0742 8.05078 12.043 7.25781 13.4844 7.25781C16.4883 7.25781 17.043 9.23438 17.043 11.8047V17.043Z" fill="white"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_941_9795">
+                <rect width="20" height="20" fill="white"/>
+                </clipPath>
+                </defs>
+                </svg>
+                
+            </a>
+          </li>
+          
         </ul>
       </div>
     </div>
@@ -191,30 +363,98 @@
         <div class="swiper-wrapper">
           <div class="swiper-slide h-auto">
             <div class="services-box max-w-[370px] rounded-[30px] px-[30px] py-[50px]">
-              <div class="w-[310px] text-white text-3xl font-normal tracking-tight">Hardware Manufacturing</div>
-              <div class="w-[310px] text-white text-xl font-normal tracking-tight">Our vision is to incite smarter business and lifestyle solutions. </div>
-              <img class="w-[310px] h-52 rounded-[10px]" src="https://via.placeholder.com/310x208" />
+              <div class="w-[310px] text-white text-3xl font-normal tracking-tight mb-5">Hardware Manufacturing</div>
+              <div class="line w-full h-[1px] bg-white"></div>
+              <div class="w-[310px] text-white text-xl font-normal tracking-tight mt-5 mb-[30px]">Our vision is to incite smarter business and lifestyle solutions. </div>
+              <div class="relative img-wrap">
+                <img class="w-[310px] h-52 rounded-[10px]" src="/assets/images/img-hardware.png" />
+                <div class="wrap-nav absolute -bottom-[10px] -right-[10px]">
+                  <div class="arrow-wrap">
+                    <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="25" cy="25" r="25" fill="#0B4AEC"/>
+                      <path d="M34.9997 15.6309V28.1227C34.9997 28.4712 34.7173 28.7537 34.3688 28.7537C34.0204 28.7537 33.7379 28.4712 33.7379 28.1227V17.1542L16.0772 34.8151C15.9178 34.9746 15.6855 35.0368 15.4677 34.9785C15.25 34.9202 15.0799 34.7501 15.0215 34.5324C14.9632 34.3146 15.0254 34.0823 15.1848 33.9229L32.8457 16.2619H21.8771C21.5287 16.2619 21.2462 15.9794 21.2462 15.6309C21.2462 15.2825 21.5287 15 21.8771 15H34.3691C34.7175 15 35 15.2825 35 15.6309H34.9997Z" fill="white" stroke="white"/>
+                    </svg>
+                  </div>
+                  <div class="arrow-active">
+                    <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="25" cy="25" r="25" fill="white"/>
+                      <path d="M34.9997 15.6309V28.1227C34.9997 28.4712 34.7173 28.7537 34.3688 28.7537C34.0204 28.7537 33.7379 28.4712 33.7379 28.1227V17.1542L16.0772 34.8151C15.9178 34.9746 15.6855 35.0368 15.4677 34.9785C15.25 34.9202 15.0799 34.7501 15.0215 34.5324C14.9632 34.3146 15.0254 34.0823 15.1848 33.9229L32.8457 16.2619H21.8771C21.5287 16.2619 21.2462 15.9794 21.2462 15.6309C21.2462 15.2825 21.5287 15 21.8771 15H34.3691C34.7175 15 35 15.2825 35 15.6309H34.9997Z" fill="#0B4AEC" stroke="#0B4AEC"/>
+                    </svg>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           <div class="swiper-slide h-auto">
             <div class="services-box max-w-[370px] rounded-[30px] px-[30px] py-[50px]">
-              <div class="w-[310px] text-white text-3xl font-normal tracking-tight">Cloud Management</div>
-              <div class="w-[310px] text-white text-xl font-normal tracking-tight">Our vision is to incite smarter business and lifestyle solutions. </div>
-              <img class="w-[310px] h-52 rounded-[10px]" src="https://via.placeholder.com/310x208" />
+              <div class="w-[310px] text-white text-3xl font-normal tracking-tight mb-5">Cloud Management</div>
+              <div class="line w-full h-[1px] bg-blue-700"></div>
+              <div class="w-[310px] text-white text-xl font-normal tracking-tight mt-5 mb-[30px]">Our vision is to incite smarter business and lifestyle solutions. </div>
+              <div class="relative img-wrap">
+                <img class="w-[310px] h-52 rounded-[10px]" src="/assets/images/img-cloud.png" />
+                <div class="wrap-nav absolute -bottom-[10px] -right-[10px]">
+                  <div class="arrow-wrap">
+                    <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="25" cy="25" r="25" fill="#0B4AEC"/>
+                      <path d="M34.9997 15.6309V28.1227C34.9997 28.4712 34.7173 28.7537 34.3688 28.7537C34.0204 28.7537 33.7379 28.4712 33.7379 28.1227V17.1542L16.0772 34.8151C15.9178 34.9746 15.6855 35.0368 15.4677 34.9785C15.25 34.9202 15.0799 34.7501 15.0215 34.5324C14.9632 34.3146 15.0254 34.0823 15.1848 33.9229L32.8457 16.2619H21.8771C21.5287 16.2619 21.2462 15.9794 21.2462 15.6309C21.2462 15.2825 21.5287 15 21.8771 15H34.3691C34.7175 15 35 15.2825 35 15.6309H34.9997Z" fill="white" stroke="white"/>
+                    </svg>
+                  </div>
+                  <div class="arrow-active">
+                    <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="25" cy="25" r="25" fill="white"/>
+                      <path d="M34.9997 15.6309V28.1227C34.9997 28.4712 34.7173 28.7537 34.3688 28.7537C34.0204 28.7537 33.7379 28.4712 33.7379 28.1227V17.1542L16.0772 34.8151C15.9178 34.9746 15.6855 35.0368 15.4677 34.9785C15.25 34.9202 15.0799 34.7501 15.0215 34.5324C14.9632 34.3146 15.0254 34.0823 15.1848 33.9229L32.8457 16.2619H21.8771C21.5287 16.2619 21.2462 15.9794 21.2462 15.6309C21.2462 15.2825 21.5287 15 21.8771 15H34.3691C34.7175 15 35 15.2825 35 15.6309H34.9997Z" fill="#0B4AEC" stroke="#0B4AEC"/>
+                    </svg>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           <div class="swiper-slide h-auto">
             <div class="services-box max-w-[370px] rounded-[30px] backdrop-blur-[10px] px-[30px] py-[50px]">
-              <div class="w-[310px] text-white text-3xl font-normal tracking-tight">Hardware Manufacturing</div>
-              <div class="w-[310px] text-white text-xl font-normal tracking-tight">Our vision is to incite smarter business and lifestyle solutions. </div>
-              <img class="w-[310px] h-52 rounded-[10px]" src="https://via.placeholder.com/310x208" />
+              <div class="w-[310px] text-white text-3xl font-normal tracking-tight mb-5">VPN Services</div>
+              <div class="line w-full h-[1px] bg-blue-700"></div>
+              <div class="w-[310px] text-white text-xl font-normal tracking-tight mt-5 mb-[30px]">Our vision is to incite smarter business and lifestyle solutions. </div>
+              <div class="relative img-wrap">
+                <img class="w-[310px] h-52 rounded-[10px]" src="/assets/images/img-vpn.png" />
+                <div class="wrap-nav absolute -bottom-[10px] -right-[10px]">
+                  <div class="arrow-wrap">
+                    <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="25" cy="25" r="25" fill="#0B4AEC"/>
+                      <path d="M34.9997 15.6309V28.1227C34.9997 28.4712 34.7173 28.7537 34.3688 28.7537C34.0204 28.7537 33.7379 28.4712 33.7379 28.1227V17.1542L16.0772 34.8151C15.9178 34.9746 15.6855 35.0368 15.4677 34.9785C15.25 34.9202 15.0799 34.7501 15.0215 34.5324C14.9632 34.3146 15.0254 34.0823 15.1848 33.9229L32.8457 16.2619H21.8771C21.5287 16.2619 21.2462 15.9794 21.2462 15.6309C21.2462 15.2825 21.5287 15 21.8771 15H34.3691C34.7175 15 35 15.2825 35 15.6309H34.9997Z" fill="white" stroke="white"/>
+                    </svg>
+                  </div>
+                  <div class="arrow-active">
+                    <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="25" cy="25" r="25" fill="white"/>
+                      <path d="M34.9997 15.6309V28.1227C34.9997 28.4712 34.7173 28.7537 34.3688 28.7537C34.0204 28.7537 33.7379 28.4712 33.7379 28.1227V17.1542L16.0772 34.8151C15.9178 34.9746 15.6855 35.0368 15.4677 34.9785C15.25 34.9202 15.0799 34.7501 15.0215 34.5324C14.9632 34.3146 15.0254 34.0823 15.1848 33.9229L32.8457 16.2619H21.8771C21.5287 16.2619 21.2462 15.9794 21.2462 15.6309C21.2462 15.2825 21.5287 15 21.8771 15H34.3691C34.7175 15 35 15.2825 35 15.6309H34.9997Z" fill="#0B4AEC" stroke="#0B4AEC"/>
+                    </svg>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           <div class="swiper-slide h-auto">
             <div class="services-box max-w-[370px] rounded-[30px] backdrop-blur-[10px] px-[30px] py-[50px]">
-              <div class="w-[310px] text-white text-3xl font-normal tracking-tight">Hardware Manufacturing</div>
-              <div class="w-[310px] text-white text-xl font-normal tracking-tight">Our vision is to incite smarter business and lifestyle solutions. </div>
-              <img class="w-[310px] h-52 rounded-[10px]" src="https://via.placeholder.com/310x208" />
+              <div class="w-[310px] text-white text-3xl font-normal tracking-tight mb-5">Network Solution</div>
+              <div class="line w-full h-[1px] bg-blue-700"></div>
+              <div class="w-[310px] text-white text-xl font-normal tracking-tight mt-5 mb-[30px]">Our vision is to incite smarter business and lifestyle solutions. </div>
+              <div class="relative img-wrap">
+                <img class="w-[310px] h-52 rounded-[10px]" src="/assets/images/img-network.png" />
+                <div class="wrap-nav absolute -bottom-[10px] -right-[10px]">
+                  <div class="arrow-wrap">
+                    <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="25" cy="25" r="25" fill="#0B4AEC"/>
+                      <path d="M34.9997 15.6309V28.1227C34.9997 28.4712 34.7173 28.7537 34.3688 28.7537C34.0204 28.7537 33.7379 28.4712 33.7379 28.1227V17.1542L16.0772 34.8151C15.9178 34.9746 15.6855 35.0368 15.4677 34.9785C15.25 34.9202 15.0799 34.7501 15.0215 34.5324C14.9632 34.3146 15.0254 34.0823 15.1848 33.9229L32.8457 16.2619H21.8771C21.5287 16.2619 21.2462 15.9794 21.2462 15.6309C21.2462 15.2825 21.5287 15 21.8771 15H34.3691C34.7175 15 35 15.2825 35 15.6309H34.9997Z" fill="white" stroke="white"/>
+                    </svg>
+                  </div>
+                  <div class="arrow-active">
+                    <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="25" cy="25" r="25" fill="white"/>
+                      <path d="M34.9997 15.6309V28.1227C34.9997 28.4712 34.7173 28.7537 34.3688 28.7537C34.0204 28.7537 33.7379 28.4712 33.7379 28.1227V17.1542L16.0772 34.8151C15.9178 34.9746 15.6855 35.0368 15.4677 34.9785C15.25 34.9202 15.0799 34.7501 15.0215 34.5324C14.9632 34.3146 15.0254 34.0823 15.1848 33.9229L32.8457 16.2619H21.8771C21.5287 16.2619 21.2462 15.9794 21.2462 15.6309C21.2462 15.2825 21.5287 15 21.8771 15H34.3691C34.7175 15 35 15.2825 35 15.6309H34.9997Z" fill="#0B4AEC" stroke="#0B4AEC"/>
+                    </svg>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -252,7 +492,7 @@
         </div>
       </div>
     </div>
-    <div class="container relative bg-stone-950 rounded-[30px] pb-[100px] px-11">
+    <div class="container relative xl:max-w-[1321px] bg-stone-950 rounded-[30px] pb-[100px] px-11">
       <div class="absolute w-full">
         <div class="text-white text-opacity-5 text-[200px] font-spring font-bold text-center top-0">PRODUCT</div>
       </div>
@@ -286,11 +526,288 @@
       </div>
     </div>
   </section>
-  <section class="partnership"></section>
-  <section class="customer"></section>
-  <section class="testimonial"></section>
-  <section class="FAQ"></section>
-  <section class="footer"></section>
+  <section class="partnership">
+    <div class="relative flex justify-center">
+      <div class="absolute w-full top-0 -left-20">
+        <div class="text-white text-opacity-5 text-[200px] font-spring font-bold tracking-widest text-center">Partnership</div>
+      </div>
+    </div>
+    <div class="container xl:max-w-[1321px] pb-[150px]">
+      <div class="txt-wrap text-center flex flex-col items-center pt-[110px] mb-[100px]">
+        <div class="text-blue-700 text-xl font-spring font-normal mb-3">Partnership</div>
+        <div class="max-w-[970px] text-white text-[50px] font-spring font-normal tracking-wide mb-8">What to expect by collaboration with Synthia?</div>
+        <div class="max-w-[970px] text-center text-white text-2xl font-jakarta font-normal tracking-tight">A leader in the tech industry . Our team of engineers is passionate about learning about your difficulties and using their experience to create solutions that are specific to your requirements and problems. We think that every successful company starts with a solid and safe foundation. And that to be found here.</div>
+      </div>
+      <div class="grid grid-cols-4 gap-[30px]">
+        <div class="partner-box w-[312.50px] h-[350px] p-[30px] bg-zinc-900 rounded-[30px] flex-col justify-end items-start gap-[30px] inline-flex">
+          <div class="icon-partner">
+            <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <rect width="50" height="50" rx="10" fill="white"/>
+              <rect x="10" y="10" width="30" height="30" fill="url(#pattern0)"/>
+              <defs>
+              <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+              <use xlink:href="#image0_941_9558" transform="scale(0.01)"/>
+              </pattern>
+              <image id="image0_941_9558" width="100" height="100" xlink:href="data:image/png;base64,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"/>
+              </defs>
+            </svg>
+          </div>
+          <div class="self-stretch text-white text-2xl font-semibold tracking-tight">Large manufacturing and development capabilities</div>
+          <div class="w-[253px] text-white text-sm font-normal tracking-tight">Prior to developing the solution, we consult our clients to ascertain project's requirements, including its features, goal, and functionality.</div>
+        </div>
+        <div class="partner-box w-[312.50px] h-[350px] p-[30px] bg-zinc-900 rounded-[30px] flex-col justify-end items-start gap-[30px] inline-flex">
+          <div class="icon-partner">
+            <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <rect width="50" height="50" rx="10" fill="white"/>
+              <rect x="10" y="10" width="30" height="30" fill="url(#pattern0)"/>
+              <defs>
+              <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+              <use xlink:href="#image0_941_9558" transform="scale(0.01)"/>
+              </pattern>
+              <image id="image0_941_9558" width="100" height="100" xlink:href="data:image/png;base64,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"/>
+              </defs>
+            </svg>
+          </div>
+          <div class="self-stretch text-white text-2xl font-semibold tracking-tight">Large manufacturing and development capabilities</div>
+          <div class="w-[253px] text-white text-sm font-normal tracking-tight">Prior to developing the solution, we consult our clients to ascertain project's requirements, including its features, goal, and functionality.</div>
+        </div>
+        <div class="partner-box w-[312.50px] h-[350px] p-[30px] bg-zinc-900 rounded-[30px] flex-col justify-end items-start gap-[30px] inline-flex">
+          <div class="icon-partner">
+            <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <rect width="50" height="50" rx="10" fill="white"/>
+              <rect x="10" y="10" width="30" height="30" fill="url(#pattern0)"/>
+              <defs>
+              <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+              <use xlink:href="#image0_941_9558" transform="scale(0.01)"/>
+              </pattern>
+              <image id="image0_941_9558" width="100" height="100" xlink:href="data:image/png;base64,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"/>
+              </defs>
+            </svg>
+          </div>
+          <div class="self-stretch text-white text-2xl font-semibold tracking-tight">Large manufacturing and development capabilities</div>
+          <div class="w-[253px] text-white text-sm font-normal tracking-tight">Prior to developing the solution, we consult our clients to ascertain project's requirements, including its features, goal, and functionality.</div>
+        </div>
+        <div class="partner-box w-[312.50px] h-[350px] p-[30px] bg-zinc-900 rounded-[30px] flex-col justify-end items-start gap-[30px] inline-flex">
+          <div class="icon-partner">
+            <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <rect width="50" height="50" rx="10" fill="white"/>
+              <rect x="10" y="10" width="30" height="30" fill="url(#pattern0)"/>
+              <defs>
+              <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+              <use xlink:href="#image0_941_9558" transform="scale(0.01)"/>
+              </pattern>
+              <image id="image0_941_9558" width="100" height="100" xlink:href="data:image/png;base64,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"/>
+              </defs>
+            </svg>
+          </div>
+          <div class="self-stretch text-white text-2xl font-semibold tracking-tight">Large manufacturing and development capabilities</div>
+          <div class="w-[253px] text-white text-sm font-normal tracking-tight">Prior to developing the solution, we consult our clients to ascertain project's requirements, including its features, goal, and functionality.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="customer">
+    <div class="relative flex justify-center">
+      <div class="absolute w-full top-0 right-0 left-0">
+        <div class="text-white text-opacity-5 text-[200px] font-spring font-bold tracking-widest text-center">Customers</div>
+      </div>
+    </div>
+    <div class="container relative pb-[100px]">
+      <div class="txt-wrap text-center flex flex-col items-start pt-[110px] mb-[100px]">
+        <div class="text-blue-700 text-xl font-spring font-normal mb-3">Customers</div>
+        <div class="text-white text-[50px] font-spring font-normal tracking-wide mb-8">Selected Clients</div>
+        <div class="max-w-[970px] text-white text-2xl font-jakarta font-normal">In Synthia we offer a handful of services</div>
+      </div>
+      <div class="grid grid-cols-4 gap-[30px] mb-[50px]">
+        <div class="cust-box w-[270px] h-[150px] bg-zinc-900 rounded-[30px] flex justify-center items-center">
+          <img class="max-w-[190px]" src="/assets/images/img-logo-goldline.png" />
+        </div>
+        <div class="cust-box w-[270px] h-[150px] bg-zinc-900 rounded-[30px] flex justify-center items-center">
+          <img class="max-w-[190px]" src="/assets/images/img-logo-goldline.png" />
+        </div>
+        <div class="cust-box w-[270px] h-[150px] bg-zinc-900 rounded-[30px] flex justify-center items-center">
+          <img class="max-w-[190px]" src="/assets/images/img-logo-goldline.png" />
+        </div>
+        <div class="cust-box w-[270px] h-[150px] bg-zinc-900 rounded-[30px] flex justify-center items-center">
+          <img class="max-w-[190px]" src="/assets/images/img-logo-goldline.png" />
+        </div>
+        <div class="cust-box w-[270px] h-[150px] bg-zinc-900 rounded-[30px] flex justify-center items-center">
+          <img class="max-w-[190px]" src="/assets/images/img-logo-goldline.png" />
+        </div>
+        <div class="cust-box w-[270px] h-[150px] bg-zinc-900 rounded-[30px] flex justify-center items-center">
+          <img class="max-w-[190px]" src="/assets/images/img-logo-goldline.png" />
+        </div>
+        <div class="cust-box w-[270px] h-[150px] bg-zinc-900 rounded-[30px] flex justify-center items-center">
+          <img class="max-w-[190px]" src="/assets/images/img-logo-goldline.png" />
+        </div>
+        <div class="cust-box w-[270px] h-[150px] bg-zinc-900 rounded-[30px] flex justify-center items-center">
+          <img class="max-w-[190px]" src="/assets/images/img-logo-goldline.png" />
+        </div>
+      </div>
+      <div class="btn-wrap flex justify-center">
+        <div class="w-[230px] h-[65px] py-5 bg-blue-700 rounded-[10px] justify-center items-center gap-3.5 inline-flex">
+          <div class="text-white text-xl font-jakarta font-semibold tracking-tight">Learn More</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="testimonial overflow-hidden">
+    <div class="relative flex justify-center">
+      <div class="absolute w-full top-0 -left-6">
+        <div class="text-white text-opacity-5 text-[200px] font-spring font-bold tracking-wider text-center">Testimonial</div>
+      </div>
+    </div>
+    <div class="container relative pb-[100px]">
+      <div class="txt-wrap text-center flex flex-col items-center pt-[110px] mb-[100px]">
+        <div class="text-blue-700 text-xl font-spring font-normal mb-3">Testimonial</div>
+        <div class="max-w-[970px] text-white text-[50px] font-spring font-normal tracking-wide mb-8">What our customers are saying about us?</div>
+      </div>
+      <div class="swiper-cust">
+        <div class="swiper-wrapper flex items-center">
+          <div class="swiper-slide h-auto">
+            <div class="w-[484px] h-[300px] relative">
+              <div class="w-[484px] h-[300px] left-0 top-0 absolute bg-zinc-900 rounded-[30px]"></div>
+              <div class="w-[436px] h-[188px] left-[24px] top-[56px] absolute">
+                  <div class="w-[436px] left-0 top-[60px] absolute text-center text-white text-base font-normal tracking-tight">" We choose Synthia because it is the perfect combination of convenience and quality. They take care of getting us high-quality services quickly and efficiently."</div>
+                  <div class="w-[132.65px] h-[30px] left-[150px] top-0 absolute">
+                      <div class="w-[92.21px] left-[40.44px] top-[6px] absolute text-white text-sm font-semibold tracking-tight">Jenna Sinclair</div>
+                      <img class="w-[30px] h-[30px] left-0 top-0 absolute rounded-[30px]" src="https://via.placeholder.com/30x30" />
+                  </div>
+                  <div class="w-[141.32px] left-[154.35px] top-[170px] absolute text-white text-sm font-medium tracking-tight">CEO of Konnekt VPN</div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide h-auto">
+            <div class="w-[484px] h-[300px] relative">
+              <div class="w-[484px] h-[300px] left-0 top-0 absolute bg-zinc-900 rounded-[30px] cust-box"></div>
+              <div class="w-[436px] h-[188px] left-[24px] top-[56px] absolute">
+                  <div class="w-[436px] left-0 top-[60px] absolute text-center text-white text-base font-normal tracking-tight">" We choose Synthia because it is the perfect combination of convenience and quality. They take care of getting us high-quality services quickly and efficiently."</div>
+                  <div class="w-[132.65px] h-[30px] left-[150px] top-0 absolute">
+                      <div class="w-[92.21px] left-[40.44px] top-[6px] absolute text-white text-sm font-semibold tracking-tight">Jenna Sinclair</div>
+                      <img class="w-[30px] h-[30px] left-0 top-0 absolute rounded-[30px]" src="https://via.placeholder.com/30x30" />
+                  </div>
+                  <div class="w-[141.32px] left-[154.35px] top-[170px] absolute text-white text-sm font-medium tracking-tight">CEO of Konnekt VPN</div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide h-auto">
+            <div class="w-[484px] h-[300px] relative">
+              <div class="w-[484px] h-[300px] left-0 top-0 absolute bg-zinc-900 rounded-[30px] cust-box"></div>
+              <div class="w-[436px] h-[188px] left-[24px] top-[56px] absolute">
+                  <div class="w-[436px] left-0 top-[60px] absolute text-center text-white text-base font-normal tracking-tight">" We choose Synthia because it is the perfect combination of convenience and quality. They take care of getting us high-quality services quickly and efficiently."</div>
+                  <div class="w-[132.65px] h-[30px] left-[150px] top-0 absolute">
+                      <div class="w-[92.21px] left-[40.44px] top-[6px] absolute text-white text-sm font-semibold tracking-tight">Jenna Sinclair</div>
+                      <img class="w-[30px] h-[30px] left-0 top-0 absolute rounded-[30px]" src="https://via.placeholder.com/30x30" />
+                  </div>
+                  <div class="w-[141.32px] left-[154.35px] top-[170px] absolute text-white text-sm font-medium tracking-tight">CEO of Konnekt VPN</div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide h-auto">
+            <div class="w-[484px] h-[300px] relative">
+              <div class="w-[484px] h-[300px] left-0 top-0 absolute bg-zinc-900 rounded-[30px] cust-box"></div>
+              <div class="w-[436px] h-[188px] left-[24px] top-[56px] absolute">
+                  <div class="w-[436px] left-0 top-[60px] absolute text-center text-white text-base font-normal tracking-tight">" We choose Synthia because it is the perfect combination of convenience and quality. They take care of getting us high-quality services quickly and efficiently."</div>
+                  <div class="w-[132.65px] h-[30px] left-[150px] top-0 absolute">
+                      <div class="w-[92.21px] left-[40.44px] top-[6px] absolute text-white text-sm font-semibold tracking-tight">Jenna Sinclair</div>
+                      <img class="w-[30px] h-[30px] left-0 top-0 absolute rounded-[30px]" src="https://via.placeholder.com/30x30" />
+                  </div>
+                  <div class="w-[141.32px] left-[154.35px] top-[170px] absolute text-white text-sm font-medium tracking-tight">CEO of Konnekt VPN</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </section>
+  <section class="FAQ">
+    <div class="relative flex justify-center">
+      <div class="absolute w-full top-0">
+        <div class="text-white text-opacity-5 text-[200px] font-spring font-bold text-start max-w-full">Frequently Asked QUestion</div>
+      </div>
+    </div>
+    <div class="container relative xl:max-w-[1321px] pb-[100px]">
+      <div class="txt-wrap text-center flex flex-col items-center pt-[110px] mb-[100px]">
+        <div class="text-blue-700 text-xl font-spring font-normal mb-3">PRODUCT</div>
+        <div class="text-white text-[50px] font-spring font-normal tracking-wide mb-8">OUR PRODUCT</div>
+        <div class="max-w-[970px] text-center text-white text-2xl font-jakarta font-normal tracking-tight">Synthia focuses on security and reliability when creating industry-leading hardware , software and network solutions.</div>
+      </div>
+      <div class="accord">
+        <div id="accordion-flush" data-accordion="collapse" data-active-classes="bg-white dark:bg-gray-900 text-gray-900 dark:text-white" data-inactive-classes="text-gray-500 dark:text-gray-400">
+          <h2 id="accordion-flush-heading-1">
+            <button type="button" class="flex items-center justify-between w-full py-5 font-medium text-left text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400" data-accordion-target="#accordion-flush-body-1" aria-expanded="true" aria-controls="accordion-flush-body-1">
+              <span>What is Flowbite?</span>
+              <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+              </svg>
+            </button>
+          </h2>
+          <div id="accordion-flush-body-1" class="hidden" aria-labelledby="accordion-flush-heading-1">
+            <div class="py-5 border-b border-gray-200 dark:border-gray-700">
+              <p class="mb-2 text-gray-500 dark:text-gray-400">Flowbite is an open-source library of interactive components built on top of Tailwind CSS including buttons, dropdowns, modals, navbars, and more.</p>
+              <p class="text-gray-500 dark:text-gray-400">Check out this guide to learn how to <a href="/docs/getting-started/introduction/" class="text-blue-600 dark:text-blue-500 hover:underline">get started</a> and start developing websites even faster with components on top of Tailwind CSS.</p>
+            </div>
+          </div>
+          <h2 id="accordion-flush-heading-2">
+            <button type="button" class="flex items-center justify-between w-full py-5 font-medium text-left text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400" data-accordion-target="#accordion-flush-body-2" aria-expanded="false" aria-controls="accordion-flush-body-2">
+              <span>Is there a Figma file available?</span>
+              <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+              </svg>
+            </button>
+          </h2>
+          <div id="accordion-flush-body-2" class="hidden" aria-labelledby="accordion-flush-heading-2">
+            <div class="py-5 border-b border-gray-200 dark:border-gray-700">
+              <p class="mb-2 text-gray-500 dark:text-gray-400">Flowbite is first conceptualized and designed using the Figma software so everything you see in the library has a design equivalent in our Figma file.</p>
+              <p class="text-gray-500 dark:text-gray-400">Check out the <a href="https://flowbite.com/figma/" class="text-blue-600 dark:text-blue-500 hover:underline">Figma design system</a> based on the utility classes from Tailwind CSS and components from Flowbite.</p>
+            </div>
+          </div>
+          <h2 id="accordion-flush-heading-3">
+            <button type="button" class="flex items-center justify-between w-full py-5 font-medium text-left text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400" data-accordion-target="#accordion-flush-body-3" aria-expanded="false" aria-controls="accordion-flush-body-3">
+              <span>What are the differences between Flowbite and Tailwind UI?</span>
+              <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+              </svg>
+            </button>
+          </h2>
+          <div id="accordion-flush-body-3" class="hidden" aria-labelledby="accordion-flush-heading-3">
+            <div class="py-5 border-b border-gray-200 dark:border-gray-700">
+              <p class="mb-2 text-gray-500 dark:text-gray-400">The main difference is that the core components from Flowbite are open source under the MIT license, whereas Tailwind UI is a paid product. Another difference is that Flowbite relies on smaller and standalone components, whereas Tailwind UI offers sections of pages.</p>
+              <p class="mb-2 text-gray-500 dark:text-gray-400">However, we actually recommend using both Flowbite, Flowbite Pro, and even Tailwind UI as there is no technical reason stopping you from using the best of two worlds.</p>
+              <p class="mb-2 text-gray-500 dark:text-gray-400">Learn more about these technologies:</p>
+              <ul class="pl-5 text-gray-500 list-disc dark:text-gray-400">
+                <li><a href="https://flowbite.com/pro/" class="text-blue-600 dark:text-blue-500 hover:underline">Flowbite Pro</a></li>
+                <li><a href="https://tailwindui.com/" rel="nofollow" class="text-blue-600 dark:text-blue-500 hover:underline">Tailwind UI</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="form-wrap">
+        <form>
+          <div class="mb-6">
+            <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your email</label>
+            <input type="email" id="email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="name@flowbite.com" required>
+          </div>
+          <div class="mb-6">
+            <label for="password" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your password</label>
+            <input type="password" id="password" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required>
+          </div>
+          <div class="flex items-start mb-6">
+            <div class="flex items-center h-5">
+              <input id="remember" type="checkbox" value="" class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800" required>
+            </div>
+            <label for="remember" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Remember me</label>
+          </div>
+          <button type="submit" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Submit</button>
+        </form>
+      </div>
+    </div>
+  </section>
+  <section class="footer">
+
+  </section>
   <div class="copyright"></div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.7.0/flowbite.min.js"></script>

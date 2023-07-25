@@ -10,6 +10,10 @@
 body{
   background-color: #141414;
 }
+section{
+  overflow-x: hidden !important;
+  max-width: 100%;
+}
 .swiper {
   width: auto;
   height: auto;
@@ -25,7 +29,37 @@ body{
 .services-box{
   background: #1C1C1C;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-end;
 }
 .swiper-slide-active .services-box{
+  background: linear-gradient(132deg, #1010ED 0%, #13A1EF 100%);
+}
+.swiper-slide-active .services-box .line{
+  background: white;
+}
+.swiper-slide-active .services-box .arrow-wrap{
+  display: none;
+}
+.swiper-slide-active .services-box .arrow-active{
+  display: block;
+}
+.services-box .arrow-wrap{
+  display: block;
+}
+.services-box .arrow-active{
+  display: none;
+}
+
+.swiper-slide-active .cust-box{
+  background: linear-gradient(132deg, #1010ED 0%, #13A1EF 100%);
+}
+
+.partner-box:hover{
+  background: linear-gradient(132deg, #1010ED 0%, #13A1EF 100%);
+}
+
+.cust-box:hover{
   background: linear-gradient(132deg, #1010ED 0%, #13A1EF 100%);
 }
