@@ -3,8 +3,9 @@ const swiper = new Swiper('.swiper', {
   direction: 'horizontal',
   loop: true,
   slidesPerView: 'auto',
-  spaceBetween: 30,
+  spaceBetween: 10,
   centeredSlides: true,
+  
 
   // If we need pagination
   pagination: {
@@ -28,13 +29,27 @@ const swiper0 = new Swiper('.swiper-brand', {
   direction: 'horizontal',
   loop: true,
   slidesPerView: 'auto',
-  spaceBetween: 50,
+  spaceBetween: 10,
   autoplay: {
     delay: 1,
     disableOnInteraction: false
   },
   speed: 5000,
   preventInteractionOnTransition: true,
+  breakpoints: {
+    // when window width is >= 320px
+    320: {
+      spaceBetween: 20
+    },
+    // when window width is >= 480px
+    480: {
+      spaceBetween: 30
+    },
+    // when window width is >= 640px
+    640: {
+      spaceBetween: 50
+    }
+  },
 
   // If we need pagination
   pagination: {

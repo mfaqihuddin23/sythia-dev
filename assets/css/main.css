@@ -66,6 +66,10 @@
     @apply text-xl
   }
 
+  .navbar-mobile{
+    background: linear-gradient(132deg, #1010ED 0%, #13A1EF 100%);
+  }
+
   .partner-box:hover{
     background: linear-gradient(132deg, #1010ED 0%, #13A1EF 100%);
   }

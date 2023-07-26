@@ -59,14 +59,17 @@
           </svg>
         </a>
       </div>
-      <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+      <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden " aria-controls="navbar-default" aria-expanded="false">
           <span class="sr-only">Open main menu</span>
-          <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+          <!-- <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+          </svg> -->
+          <svg class="w-[21px] h-[13px]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M0.5 0C0.223858 0 0 0.223858 0 0.5C0 0.776142 0.223858 1 0.5 1H13.5C13.7761 1 14 0.776142 14 0.5C14 0.223858 13.7761 0 13.5 0H0.5ZM20.5 1H16.5C16.2239 1 16 0.776142 16 0.5C16 0.223858 16.2239 0 16.5 0H20.5C20.7761 0 21 0.223858 21 0.5C21 0.776142 20.7761 1 20.5 1ZM7.5 6C7.22386 6 7 6.22386 7 6.5C7 6.77614 7.22386 7 7.5 7H20.5C20.7761 7 21 6.77614 21 6.5C21 6.22386 20.7761 6 20.5 6H7.5ZM4.5 7H0.5C0.223858 7 0 6.77614 0 6.5C0 6.22386 0.223858 6 0.5 6H4.5C4.77614 6 5 6.22386 5 6.5C5 6.77614 4.77614 7 4.5 7ZM0.5 12C0.223858 12 0 12.2239 0 12.5C0 12.7761 0.223858 13 0.5 13H13.5C13.7761 13 14 12.7761 14 12.5C14 12.2239 13.7761 12 13.5 12H0.5ZM16.5 12H20.5C20.7761 12 21 12.2239 21 12.5C21 12.7761 20.7761 13 20.5 13H16.5C16.2239 13 16 12.7761 16 12.5C16 12.2239 16.2239 12 16.5 12Z" fill="white"/>
           </svg>
       </button>
       <div class="hidden w-full md:flex md:w-auto" id="navbar-default">
-        <ul class="font-bold text-sm flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0 ">
+        <ul class="navbar-mobile md:bg-none font-bold text-sm flex flex-col p-4 md:p-0 mt-4 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0">
           <li>
             <a href="#about" class="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
           </li>
@@ -83,7 +86,7 @@
             <a href="#shortcode" class="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Shortcodes</a>
           </li>
         </ul>
-        <ul class="md:hidden flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0 ">
+        <!-- <ul class="md:hidden flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0 ">
           <li>
             <a href="#" class="block " >
               <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -146,8 +149,7 @@
                 
             </a>
           </li>
-          
-        </ul>
+        </ul> -->
       </div>
       <div class="hidden w-full md:flex md:w-auto" id="navbar-default">
         <ul class=" flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0 ">
@@ -218,15 +220,15 @@
       </div>
     </div>
   </nav>
-  <section class="hero py-[100px] overflow-hidden">
+  <section class="hero py-[50px] md:py-[100px] overflow-hidden">
     <div class="container">
-      <div class="txt-wrap mb-[77px]">
-        <div class="text-blue-700 text-3xl font-spring font-normal mb-5">Introduction</div>
-        <div class="text-white text-[80px] font-spring font-normal ">We are highly expert creative developers and network engineers</div>
+      <div class="txt-wrap mb-[77px] w-4/5 md:w-full mx-auto">
+        <div class="hidden md:block text-blue-700 text-3xl font-spring font-normal mb-5">Introduction</div>
+        <div class="text-white text-[40px] md:text-[80px] font-spring font-normal ">We are highly expert creative developers and network engineers</div>
       </div>
       <div class="relative">
-        <div class="absolute top-[-27px] right-[-49px]">
-          <svg width="130" height="130" viewBox="0 0 130 130" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <div class="absolute top-[-27px] right-8 md:right-[-49px]">
+          <svg class="w-20 md:w-[130px] h-20 md:h-[130px]" viewBox="0 0 130 130" fill="none" xmlns="http://www.w3.org/2000/svg">
             <circle cx="65" cy="65" r="65" fill="url(#paint0_linear_941_9636)"/>
             <path d="M101.184 109.102L97.1774 112.191C96.6151 112.625 96.076 112.99 95.5696 113.267C95.0553 113.55 94.602 113.748 94.1972 113.845C93.7846 113.949 93.4133 114.008 93.0713 114.006C92.7353 114.013 92.4286 113.959 92.151 113.845C91.8814 113.724 91.6416 113.593 91.4415 113.432C91.2334 113.277 91.0508 113.089 90.8799 112.868L90.7028 112.638C90.5013 112.377 90.3437 112.107 90.2378 111.822C90.118 111.536 90.0615 111.2 90.0623 110.808C90.0649 110.402 90.1455 109.999 90.3121 109.593C90.4866 109.18 90.7885 108.72 91.2256 108.206C91.6488 107.691 92.2079 107.171 92.889 106.646L96.904 103.55L101.184 109.102ZM98.2843 109.254L96.0433 106.348L94.0714 107.868C92.448 109.12 92.0066 110.218 92.7454 111.176L92.776 111.216C93.5148 112.174 94.689 112.027 96.3124 110.775L98.2843 109.254Z" fill="white"/>
             <path d="M86.4465 117.906L83.6967 111.49L85.8843 110.553L88.634 116.968L86.4465 117.906Z" fill="white"/>
@@ -257,73 +259,73 @@
             </defs>
           </svg>
         </div>
-        <div class="img-wrap">
+        <div class="img-wrap md:rounded-t-3xl overflow-hidden">
           <img src="./assets/images/img-hero.png" alt="two man discuss">
         </div>
       </div>
     </div>
-    <div class="swiper-brand w-full h-[150px] px-[50px] py-5 bg-gradient-to-r from-blue-700 to-sky-500 justify-center items-center gap-[50px]">
+    <div class="swiper-brand w-full py-4 md:py-5 bg-gradient-to-r from-blue-700 to-sky-500 justify-center items-center">
       <!-- Additional required wrapper -->
-      <div class="swiper-wrapper swiper-linear">
+      <div class="swiper-wrapper swiper-linear flex items-center">
         <!-- Slides -->
         <div class="swiper-slide">
-          <div class="img-wrap substract max-w-[100px] max-h-[100px]">
+          <div class="img-wrap substract max-w-[50px] md:max-w-[100px] max-h-[50px] md:max-h-[100px]">
             <img src="./assets/images/svg/Subtract.svg" />
           </div>
         </div>
         <div class="swiper-slide">
           <div class="img-wrap">
-            <img class="max-w-[333px] max-h-[100px]" src="./assets/images/img-logo-goldline.png" />
+            <img class="max-w-[100px] md:max-w-[333px] max-h-[100px]" src="./assets/images/img-logo-goldline.png" />
           </div>
         </div>
         <div class="swiper-slide">
-          <div class="img-wrap substract max-w-[100px] max-h-[100px]">
-            <img src="./assets/images/svg/Subtract.svg" />
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="img-wrap max-w-[333px] max-h-[100px]">
-            <img class="max-w-[333px] max-h-[100px]" src="./assets/images/img-logo-circle.png" />
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="img-wrap substract max-w-[100px] max-h-[100px]">
-            <img src="./assets/images/svg/Subtract.svg" />
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="img-wrap max-w-[333px] max-h-[100px]">
-            <img class="max-w-[333px] max-h-[100px]" src="./assets/images/img-logo-velocity.png" />
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="img-wrap substract max-w-[100px] max-h-[100px]">
+          <div class="img-wrap substract max-w-[50px] md:max-w-[100px] max-h-[50px] md:max-h-[100px]">
             <img src="./assets/images/svg/Subtract.svg" />
           </div>
         </div>
         <div class="swiper-slide">
           <div class="img-wrap">
-            <img class="max-w-[333px] max-h-[100px]" src="./assets/images/img-logo-goldline.png" />
+            <img class="max-w-[100px] md:max-w-[333px] max-h-[100px]" src="./assets/images/img-logo-circle.png" />
           </div>
         </div>
         <div class="swiper-slide">
-          <div class="img-wrap substract max-w-[100px] max-h-[100px]">
+          <div class="img-wrap substract max-w-[50px] md:max-w-[100px] max-h-[50px] md:max-h-[100px]">
             <img src="./assets/images/svg/Subtract.svg" />
           </div>
         </div>
         <div class="swiper-slide">
-          <div class="img-wrap max-w-[333px] max-h-[100px]">
-            <img class="max-w-[333px] max-h-[100px]" src="./assets/images/img-logo-circle.png" />
+          <div class="img-wrap">
+            <img class="max-w-[100px] md:max-w-[333px] max-h-[100px]" src="./assets/images/img-logo-velocity.png" />
           </div>
         </div>
         <div class="swiper-slide">
-          <div class="img-wrap substract max-w-[100px] max-h-[100px]">
+          <div class="img-wrap substract max-w-[50px] md:max-w-[100px] max-h-[50px] md:max-h-[100px]">
             <img src="./assets/images/svg/Subtract.svg" />
           </div>
         </div>
         <div class="swiper-slide">
-          <div class="img-wrap max-w-[333px] max-h-[100px]">
-            <img class="max-w-[333px] max-h-[100px]" src="./assets/images/img-logo-velocity.png" />
+          <div class="img-wrap">
+            <img class="max-w-[100px] md:max-w-[333px] max-h-[100px]" src="./assets/images/img-logo-goldline.png" />
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="img-wrap substract max-w-[50px] md:max-w-[100px] max-h-[50px] md:max-h-[100px]">
+            <img src="./assets/images/svg/Subtract.svg" />
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="img-wrap">
+            <img class="max-w-[100px] md:max-w-[333px] max-h-[100px]" src="./assets/images/img-logo-circle.png" />
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="img-wrap substract max-w-[50px] md:max-w-[100px] max-h-[50px] md:max-h-[100px]">
+            <img src="./assets/images/svg/Subtract.svg" />
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="img-wrap">
+            <img class="max-w-[100px] md:max-w-[333px] max-h-[100px]" src="./assets/images/img-logo-velocity.png" />
           </div>
         </div>
       </div>
@@ -334,31 +336,34 @@
       <!-- If we need scrollbar -->
     </div>
   </section>
-  <section class="about mb-[150px]">
-    <div class="container relative">
+  <section class="about mb-[150px] pt-[100px] md:pt-0">
+    <div class="container relative pb-[150px] flex flex-col items-center">
       <div class="absolute">
-        <div class="text-white text-opacity-5 text-[200px] font-spring font-bold text-center top-0">About us</div>
+        <div class="w-[465px] md:w-[1162px] text-white text-opacity-5 text-[80px] md:text-[200px] font-spring font-bold text-center">About us</div>
       </div>
-      <div class="txt-wrap text-center mb-[47px] pt-[151px]">
-        <div class="text-blue-700 text-xl font-spring font-normal mb-3">ABOUT</div>
-        <div class="text-white text-[50px] font-spring font-normal tracking-wide mb-8">Our Vision</div>
-        <div class="w-[1170px] text-center text-white text-2xl font-jakarta font-normal tracking-tight">Our vision is to incite smarter business and lifestyle solutions. We have brought together international expertise to develop hardware and software solutions that produce exceptional next-generation networking devices that are both inexpensive and secure for you and your company.</div>
+      <div class="txt-wrap text-center mb-[47px] pt-7 md:pt-[151px] w-4/5 md:w-full mx-auto">
+        <div class="text-blue-700 text-sm md:text-xl font-spring font-normal mb-3">ABOUT</div>
+        <div class="text-white text-3xl md:text-[50px] font-spring font-normal tracking-wide mb-8">Our Vision</div>
+        <div class="text-white text-sm md:text-2xl font-jakarta font-normal tracking-tight">Our vision is to incite smarter business and lifestyle solutions. We have brought together international expertise to develop hardware and software solutions that produce exceptional next-generation networking devices that are both inexpensive and secure for you and your company.</div>
       </div>
       <div class="btn-wrap flex justify-center">
-        <div class="w-[230px] h-[65px] py-5 bg-blue-700 rounded-[10px] justify-center items-center gap-3.5 inline-flex">
+        <a href="#" class="w-[230px] h-[65px] py-5 bg-blue-700 rounded-[10px] justify-center items-center gap-3.5 inline-flex">
           <div class="text-white text-xl font-jakarta font-semibold tracking-tight">Learn More</div>
-        </div>
+        </a>
       </div>
     </div>
-    <div class="container relative">
+    <div class="container relative pb-14 flex flex-col items-center">
       <div class="absolute">
-        <div class="text-white text-opacity-5 text-[200px] font-spring font-bold tracking-wider top-0">Services</div>
+        <div class="w-[465px] md:w-[1162px] text-white text-opacity-5 text-[80px] md:text-[200px] font-spring font-bold text-center tracking-wide
+        ">Services</div>
       </div>
-      <div class="txt-wrap text-right pt-20 mb-[58px]">
-        <div class="text-blue-700 text-xl font-spring font-normal mb-[10px]">Services</div>
-        <div class="text-white text-[50px] font-spring font-normal tracking-wide mb-[30px]">Our Services</div>
-        <div class="text-white text-2xl font-jakarta font-normal tracking-tight">In Synthia we offer a handfull of services</div>
-      </div>
+      <div class="txt-wrap text-center md:text-right pt-3 md:pt-[84px] w-4/5 md:w-full mx-auto">
+        <div class="text-blue-700 text-sm md:text-xl font-spring font-normal mb-[10px]">Services</div>
+        <div class="text-white text-3xl md:text-[50px] md:leading-snug font-spring font-normal tracking-wide mb-5 md:mb-[30px]">Our Services</div>
+        <div class="text-white text-sm md:text-2xl font-jakarta font-normal tracking-tight">In Synthia we offer a handfull of services</div>
+      </div>    
+    </div>
+    <div class="container relative pb-[150px]">
       <div class="swiper">
         <div class="swiper-wrapper">
           <div class="swiper-slide h-auto">
@@ -460,52 +465,52 @@
         </div>
       </div>
     </div>
-    <div class="container relative mb-[100px]">
+    <div class="container relative mb-[100px] flex flex-col items-center">
       <div class="absolute">
-        <div class="text-white text-opacity-5 text-[200px] font-spring font-bold text-center tracking-widest top-0">Solution</div>
+        <div class="w-[465px] md:w-[1162px] text-white text-opacity-5 text-[80px] md:text-[200px] font-spring font-bold text-center tracking-wide">Solution</div>
       </div>
-      <div class="txt-wrap text-center pt-[110px] mb-[50px]">
-        <div class="text-blue-700 text-xl font-spring font-normal mb-3">Solution</div>
-        <div class="text-white text-[50px] font-spring font-normal tracking-wide mb-8">What We can do</div>
-        <div class="w-[1170px] text-center text-white text-2xl font-jakarta font-normal tracking-tight">Synthia focuses on security and reliability when creating industry-leading hardware , software and network solutions. By extending your service offering and solution coverage, our partnership incorporates more value into your business strategy. Our proven success in the design and production of multipurpose routers as well as the delivery of tailored software solutions, will be a seamless integration to your service offering</div>
+      <div class="txt-wrap text-center pt-2 md:pt-[110px] mb-[50px] w-4/5 md:w-full mx-auto">
+        <div class="text-blue-700 text-sm md:text-xl font-spring font-normal mb-3">Solution</div>
+        <div class="text-white text-3xl md:text-[50px] font-spring font-normal tracking-wide mb-8">What We can do</div>
+        <div class="text-white text-sm md:text-2xl font-jakarta font-normal tracking-tight">Synthia focuses on security and reliability when creating industry-leading hardware , software and network solutions. By extending your service offering and solution coverage, our partnership incorporates more value into your business strategy. Our proven success in the design and production of multipurpose routers as well as the delivery of tailored software solutions, will be a seamless integration to your service offering</div>
       </div>
       
-      <div class="text-white" id="" data-accordion="collapse" data-active-classes="bg-transparent" data-inactive-classes="text-white">
-        <div class="accord-wrap px-[60px] py-[50px] bg-zinc-900 rounded-[100px] mb-[30px]">
+      <div class="text-white w-4/5 md:w-full mx-auto" id="" data-accordion="collapse" data-active-classes="bg-transparent" data-inactive-classes="text-white">
+        <div class="accord-wrap px-10 md:px-[60px] py-[20px] md:py-[50px] bg-zinc-900 rounded-full md:rounded-[100px] mb-[30px]">
           <h2 id="accordion-color-heading-1">
-            <button type="button" class="flex items-center justify-between w-full text-[50px] font-spring font-normal text-white bg-transparent" data-accordion-target="#accordion-color-body-1" aria-expanded="true" aria-controls="accordion-color-body-1">
+            <button type="button" class="flex items-center justify-between w-full text-xl md:text-[50px] font-spring font-normal text-white bg-transparent" data-accordion-target="#accordion-color-body-1" aria-expanded="true" aria-controls="accordion-color-body-1">
               <span>PROGRAMING</span>
               <!-- <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
               </svg> -->
-              <svg data-accordion-icon class="rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <svg data-accordion-icon class="w-[30px] md:w-[60px] h-[30px] md:h-[60px] rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <circle cx="30" cy="30" r="30" fill="#0B4AEC"/>
                 <path d="M47.1429 21.4738C47.1432 21.7132 47.048 21.9429 46.8784 22.1119L30.6326 38.3577C30.2801 38.7101 29.7088 38.7101 29.3564 38.3577L13.1105 22.1119C12.7685 21.7578 12.7734 21.1948 13.1215 20.8467C13.4697 20.4985 14.0326 20.4937 14.3867 20.8357L29.9945 36.4434L45.6022 20.8357C45.8604 20.5776 46.2485 20.5005 46.5857 20.6401C46.9229 20.7798 47.1428 21.1088 47.1429 21.4738Z" fill="white" stroke="white"/>
               </svg>
             </button>
           </h2>
-          <div class="mt-[50px]" id="accordion-color-body-1" class="hidden" aria-labelledby="accordion-color-heading-1">
+          <div class="mt-3 md:mt-[50px]" id="accordion-color-body-1" class="hidden" aria-labelledby="accordion-color-heading-1">
             <div class="">
-              <p class="text-white text-2xl font-jakarta font-normal">Ui / Ux design - App development - Web development</p>
+              <p class="text-white text-sm md:text-2xl font-jakarta font-normal">Ui / Ux design - App development - Web development</p>
             </div>
           </div>
         </div>
-        <div class="accord-wrap px-[60px] py-[50px] bg-zinc-900 rounded-[100px] mb-[30px]">
+        <div class="accord-wrap px-10 md:px-[60px] py-[20px] md:py-[50px] bg-zinc-900 rounded-full md:rounded-[100px] mb-[30px]">
           <h2 id="accordion-color-heading-2">
-            <button type="button" class="flex items-center justify-between w-full text-[50px] font-spring font-normal text-white bg-transparent" data-accordion-target="#accordion-color-body-2" aria-expanded="true" aria-controls="accordion-color-body-2">
+            <button type="button" class="flex items-center justify-between w-full text-xl md:text-[50px] font-spring font-normal text-white bg-transparent" data-accordion-target="#accordion-color-body-2" aria-expanded="true" aria-controls="accordion-color-body-2">
               <span>NETWORK</span>
               <!-- <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
               </svg> -->
-              <svg data-accordion-icon class="rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <svg data-accordion-icon class="w-[30px] md:w-[60px] h-[30px] md:h-[60px] rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <circle cx="30" cy="30" r="30" fill="#0B4AEC"/>
                 <path d="M47.1429 21.4738C47.1432 21.7132 47.048 21.9429 46.8784 22.1119L30.6326 38.3577C30.2801 38.7101 29.7088 38.7101 29.3564 38.3577L13.1105 22.1119C12.7685 21.7578 12.7734 21.1948 13.1215 20.8467C13.4697 20.4985 14.0326 20.4937 14.3867 20.8357L29.9945 36.4434L45.6022 20.8357C45.8604 20.5776 46.2485 20.5005 46.5857 20.6401C46.9229 20.7798 47.1428 21.1088 47.1429 21.4738Z" fill="white" stroke="white"/>
               </svg>
             </button>
           </h2>
-          <div class="mt-[50px]" id="accordion-color-body-2" class="hidden" aria-labelledby="accordion-color-heading-2">
+          <div class="mt-3 md:mt-[50px]" id="accordion-color-body-2" class="hidden" aria-labelledby="accordion-color-heading-2">
             <div class="">
-              <p class="text-white text-2xl font-jakarta font-normal">Security - Hardware manufacturing - VPN services</p>
+              <p class="text-white text-sm md:text-2xl font-jakarta font-normal">Security - Hardware manufacturing - VPN services</p>
             </div>
           </div>
         </div>
