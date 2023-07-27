@@ -73,8 +73,18 @@ const swiper1 = new Swiper('.swiper-cust', {
   direction: 'horizontal',
   loop: true,
   slidesPerView: 'auto',
-  spaceBetween: 30,
+  spaceBetween: 20,
   centeredSlides: true,
+  breakpoints: {
+    // when window width is >= 320px
+    
+    // when window width is >= 480px
+    
+    // when window width is >= 640px
+    640: {
+      spaceBetween: 50
+    }
+  },
 
   // If we need pagination
   pagination: {

@@ -22,6 +22,9 @@
   .swiper-slide{
     width: auto !important;
   }
+  /* .swiper-cust .swiper-slide{
+    width: 100% !important;
+  } */
   .swiper-linear {
     -webkit-transition-timing-function:linear!important; 
     -o-transition-timing-function:linear!important;
@@ -54,13 +57,13 @@
   }
   .swiper-slide-active .cust-slide{
     background: linear-gradient(132deg, #1010ED 0%, #13A1EF 100%);
-    @apply px-[30px] py-16 max-w-[570px]
+    @apply  px-[30px] md:py-16 md:max-w-[570px]
   }
   .swiper-slide-active .cust-slide .cust-name{
     @apply text-2xl
   }
   .swiper-slide-active .cust-slide .cust-body{
-    @apply text-2xl
+    @apply text-sm md:text-2xl 
   }
   .swiper-slide-active .cust-slide .cust-pos{
     @apply text-xl
@@ -79,6 +82,9 @@
   }
   .cust-box:hover img{
     opacity: 1 !important;
+  }
+  .faq-accord button{
+    text-align: start;
   }
   .form-wrap{
     background: linear-gradient(132deg, #1010ED 0%, #13A1EF 100%);
