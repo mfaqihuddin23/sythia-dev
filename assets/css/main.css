@@ -73,6 +73,19 @@
     background: linear-gradient(132deg, #1010ED 0%, #13A1EF 100%);
   }
 
+  .text-grad{
+    background: var(--white-gradient, linear-gradient(126deg, #FFF 0%, #A1A1A1 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .text-grad2{
+    background: var(--gradient, linear-gradient(90deg, #1010ED 0%, #13A1EF 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
   .partner-box:hover{
     background: linear-gradient(132deg, #1010ED 0%, #13A1EF 100%);
   }
